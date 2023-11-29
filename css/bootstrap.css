@@ -1855,6 +1855,7 @@ pre code {
 }
 
 .form-control {
+  text-align: center;
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
