@@ -1,4 +1,4 @@
-$white: #ffffff;
+$white: #ffffff00;
 $black: #000000;
 $primary1: #ffbe33;
 $primary2: #222831;
@@ -38,7 +38,7 @@ $textCol: #1f1f1f;
 body {
   @include main-font;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #ffffff00;
   overflow-x: hidden;
 }
 
@@ -499,10 +499,10 @@ a:focus {
     color: $white;
     border-radius: 15px;
     overflow: hidden;
-    background: linear-gradient(to bottom, #f1f2f3 25px, $primary2 25px);
+    background: linear-gradient(to bottom, #f1f2f300 25px, $primary2 25px);
 
     .img-box {
-      background: #f1f2f3;
+      background: #f1f2f300;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -631,7 +631,7 @@ a:focus {
       height: 50px;
       margin-bottom: 25px;
       padding-left: 25px;
-      border: 1px solid #999;
+      border: 1px solid #99999900;
       outline: none;
       color: $black;
       border-radius: 5px;
@@ -777,7 +777,7 @@ a:focus {
       height: 50px;
       padding-left: 25px;
       background-color: transparent;
-      border: 1px solid #ccc;
+      border: 1px solid #cccccc00;
       outline: none;
       color: $black;
       border-radius: 5px;
@@ -830,7 +830,7 @@ a:focus {
   }
 
   p {
-    color: #dbdbdb;
+    color: #dbdbdb00;
   }
 
   .footer-col {
