@@ -1035,9 +1035,9 @@ a:focus {
 }
 
 .container {
-  background-color: #f2f2f2;
+  background-color: #f2f2f200;
   padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgba(211, 211, 211, 0);
   border-radius: 3px;
 }
 
