@@ -616,7 +616,7 @@ a:focus {
 }
 
 .about_section {
-  background: #222831;
+  background: #ffffff;
   color: #ffffff;
 }
 
@@ -1035,10 +1035,13 @@ a:focus {
 }
 
 .container {
-  background-color: #00000004;
+  background-color: #00000015;
   padding: 5px 20px 15px 20px;
   border: 1px solid rgba(211, 211, 211, 0);
   border-radius: 3px;
+}
+.about_background {
+  background-color:#222831
 }
 
 input[type=text] {
